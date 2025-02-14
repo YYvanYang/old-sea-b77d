@@ -1,0 +1,30 @@
+{
+  "name": "old-sea-b77d",
+  "main": "./dist/index.js",
+  "assets": {
+    "directory": "./dist"
+  },
+  "compatibility_date": "2024-11-01",
+  "compatibility_flags": ["nodejs_compat"],
+  "observability": {
+    "enabled": true
+  },
+  "upload_source_maps": true,
+  "vars": {
+    "EXAMPLE_VALUE": "example_value"
+  },
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "plain-wave-78be-d1",
+      "database_id": "42ee9174-b58e-4d6a-b5a5-ba6c0c3dddfe"
+    }
+  ],
+  "workflows": [
+    {
+      "name": "old-sea-b77d-customer-workflow",
+      "binding": "CUSTOMER_WORKFLOW",
+      "class_name": "CustomerWorkflow"
+    }
+  ]
+}
